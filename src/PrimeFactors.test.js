@@ -14,4 +14,9 @@ describe("Factorial", () => {
       expect(Factorial(3)).toEqual([3]);
     });
   });
+  describe("Factorial", () => {
+    it("ingresamos el numero 4 y nos retorna [2,2]", () => {
+      expect(Factorial(4)).toEqual([2,2]);
+    });
+  });
 
