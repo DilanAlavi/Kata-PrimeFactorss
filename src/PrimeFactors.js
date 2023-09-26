@@ -1,23 +1,16 @@
 function Factorial (n)
 {
-    const primo =[];
-  if(n<=1)
+ const primo =[];
+
+  for(let x=2; n>1; x++)
   {
-      return [];
-  }
-  while(n>1)
-  {
-    while(n%2==0)
+    while(n%x===0)
     {
-        primo.push(2);
-        n/=2;
+        primo.push(x);
+        n/=x;
     }
   }
-  if(n>1)
-  {
-    primo.push(n);
-
-  }
+  
   return primo;
 }
 export default Factorial;

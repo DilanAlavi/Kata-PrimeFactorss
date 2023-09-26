@@ -34,5 +34,6 @@ describe("Factorial", () => {
       expect(Factorial(9)).toEqual([3,3]);
     });
   });
+  
 
 
