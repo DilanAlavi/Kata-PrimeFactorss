@@ -7,7 +7,7 @@ function Factorial (n)
   }
   if(n>1)
   {
-    if(n%2==0)
+    while(n%2==0)
     {
         primo.push(2);
         n/=2;
