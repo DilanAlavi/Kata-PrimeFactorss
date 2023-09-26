@@ -29,4 +29,10 @@ describe("Factorial", () => {
       expect(Factorial(8)).toEqual([2,2,2]);
     });
   });
+  describe("Factorial", () => {
+    it("ingresamos el numero 9 y nos retorna [3,3]", () => {
+      expect(Factorial(9)).toEqual([3,3]);
+    });
+  });
+
 

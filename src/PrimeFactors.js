@@ -5,7 +5,7 @@ function Factorial (n)
   {
       return [];
   }
-  if(n>1)
+  while(n>1)
   {
     while(n%2==0)
     {
