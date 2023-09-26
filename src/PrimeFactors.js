@@ -5,9 +5,9 @@ function Factorial (n)
   {
       return [];
   }
-  if(n=2)
+  if(n>1)
   {
-    primo.push(2);
+    primo.push(n);
 
   }
   return primo;
